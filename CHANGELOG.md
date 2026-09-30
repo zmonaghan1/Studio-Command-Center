@@ -9,3 +9,4 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 - Repository foundation: TypeScript toolchain, CI quality gate, contribution workflow and templates
 - Studio data model with validation, production health metrics and a seeded sample studio (Lantern Forge Studios)
+- Production overview: days to ship, budget vs. plan, milestones needing attention, open blockers with escalation flags, and budget by discipline; light and dark themes
