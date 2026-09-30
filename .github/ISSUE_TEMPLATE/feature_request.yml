@@ -1,0 +1,29 @@
+name: Feature request
+description: Propose a new capability or improvement
+labels: ['type: feature']
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Producer problem
+      description: What is hard for a producer or team today? Who feels it?
+      placeholder: When a milestone slips, I can't see which other teams are affected...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should the app do?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How will we know it's done? One checkable item per line.
+      placeholder: |
+        - [ ] Blockers older than 3 days are highlighted
+        - [ ] Each blocker links to the milestone it threatens
+    validations:
+      required: true
